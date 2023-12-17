@@ -227,12 +227,12 @@ section {
 }
 .student_container .student_box:nth-child(odd):hover {
   border: 0.2rem solid var(--main_color);
-  transform: scale(0.9);
+  transform: scale(0.95);
   background-color: #3d1616ba;
 }
 .student_container .student_box:nth-child(even):hover {
   border: 0.2rem solid var(--main_color);
-  transform: scale(0.9);
+  transform: scale(0.95);
   background-color: #323946;
 }
 .student_box a i {
