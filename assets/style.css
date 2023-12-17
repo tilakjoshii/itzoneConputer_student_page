@@ -227,12 +227,12 @@ section {
 }
 .student_container .student_box:nth-child(odd):hover {
   border: 0.2rem solid var(--main_color);
-  transform: scale(1.02);
+  transform: scale(0.9);
   background-color: #3d1616ba;
 }
 .student_container .student_box:nth-child(even):hover {
   border: 0.2rem solid var(--main_color);
-  transform: scale(1.02);
+  transform: scale(0.9);
   background-color: #323946;
 }
 .student_box a i {
@@ -246,4 +246,10 @@ section {
   height: 5rem;
   width: 15rem;
 }
+@media (max-width: 500px){
+    .student_box a h3 {
 
+  font-size: 1.6rem;
+  
+}
+}
